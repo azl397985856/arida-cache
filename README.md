@@ -30,7 +30,7 @@ npm install arida-cache
 })()
 ```
 Run the example above, you will get result below:
-pre
+```pre
 a is runing
 post
 { ca1a41f90da606b052ecf10c8286817813bc8861: { a: 1 } }
@@ -38,11 +38,12 @@ pre
 a is runing
 post
 { ca1a41f90da606b052ecf10c8286817813bc8861: { a: 1 } }
+```
 
 ## API
 The following is an incomplete list of arida API. It should give you a general concept of arida's usage.
 
-- `.init: function(funcs, duration, context, funcName): config the cache 
+- `.init`: function(funcs, duration, context, funcName): config the cache 
 funcs present the func will be hooked
 duration set the cache's duration
 context should be assign if not in window or global
