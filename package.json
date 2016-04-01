@@ -1,0 +1,27 @@
+{
+  "name": "arida-cache",
+  "version": "0.0.2",
+  "description": "a library for your client cache.",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "babel src -d lib",
+    "test": "babel-node babel test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/azl397985856/arida-cache.git"
+  },
+  "keywords": [
+    "client-cache",
+    "arida"
+  ],
+  "author": "Zhipeng Lu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/azl397985856/arida-cache/issues"
+  },
+  "homepage": "https://github.com/azl397985856/arida-cache#readme",
+  "dependencies": {
+    "object-hash": "^1.1.2"
+  }
+}
