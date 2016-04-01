@@ -44,10 +44,10 @@ post
 The following is an incomplete list of arida API. It should give you a general concept of arida's usage.
 
 - `.init`: function(funcs, duration, context, funcName): config the cache <br>
-funcs present the func will be hooked<br>
-duration set the cache's duration<br>
-context should be assign if not in window or global<br>
-funcName  must be assign otherwise not anyoumous<br>
+funcs: present the func will be hooked<br>
+duration: set the cache's duration<br>
+context: should be assign if not in window or global<br>
+funcName:  must be assign otherwise not anyoumous<br>
 - `.get()`: Returns cache;
 
 ## Contributing
